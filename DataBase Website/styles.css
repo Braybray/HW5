@@ -1,0 +1,34 @@
+﻿/* DIV formatting */
+#container {background: blue; padding:20px; margin:0 auto; border:1px solid black; width:900px;}
+#header {background: orange; color: Teal; padding: 10px; margin:0 auto; border:1px solid black;}
+#menu{background:Aqua; color: black; padding: 10px; margin: 0 auto; border-left:1px solid black; border-right: 1px solid black;}
+#main {background: white; padding: 10px; margin: 0 auto; border-left:1px solid black; border-right: 1px solid black;}
+#footer {background: green; color: White; padding: 10px; margin: 0 auto; border:1px solid black;}
+
+.hdr_img {float:right; margin:0; padding:0; border:0;}
+
+.level1
+{
+    color:White;
+    background-color: Fuchsia;
+    font-variant:normal;
+    font-size:medium;
+    font-weight:bold; 
+}
+
+Level2
+{
+    color:blue;
+    font-family: Adobe Caslon Pro;
+    font-size: small; 
+}
+
+Level3
+{
+    color: Lime; 
+    background-color: white;
+    font-family: Adobe Caslon Pro;
+    font-size: smaller   
+}
+
+    
