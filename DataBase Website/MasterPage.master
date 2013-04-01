@@ -18,10 +18,10 @@
     <div id="contatiner">
           <div id="header"> 
                 
-              <asp:Image class="hdr_img" ID="Image1" runat="server" ImageUrl="~/logo/logo.jpg"
+              <asp:Image class="hdr_img" ID="Image1" runat="server" ImageUrl="~/logo/logo.jpg" Height="80" weidth="150"
               />
                 
-                <h1>Header Text</h1>
+                <h1>NBA Player Real Rating</h1>
     </div>
 
 

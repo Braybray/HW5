@@ -6,9 +6,13 @@
 
 
     <siteMapNode url="~/Admin/default.aspx" title="Admin"  description="">
+      
       <siteMapNode url="~/Admin/add.aspx" title="Add record"  description="" />
       <siteMapNode url="~/Admin/edit.aspx" title="Edit/Delete Record"  description="" />
+      <siteMapNode url="~/Admin/Player Detail.aspx" title="View Detailed Record"  description="" />
+
     </siteMapNode>
+      
 
     <siteMapNode url="~/Vistor/default.aspx" title="Vistor"  description="">
       <siteMapNode url="~/Vistor/view.aspx" title="View and Sort record"  description="" />
