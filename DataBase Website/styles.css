@@ -1,9 +1,9 @@
 ﻿/* DIV formatting */
-#container {background: blue; padding:20px; margin:0 auto; border:1px solid black; width:900px;}
-#header {background: orange; color: Teal; padding: 10px; margin:0 auto; border:1px solid black;}
-#menu{background:Aqua; color: black; padding: 10px; margin: 0 auto; border-left:1px solid black; border-right: 1px solid black;}
-#main {background: white; padding: 10px; margin: 0 auto; border-left:1px solid black; border-right: 1px solid black;}
-#footer {background: green; color: White; padding: 10px; margin: 0 auto; border:1px solid black;}
+#container {background: DarkTurquoise ; padding:20px; margin:0 auto; border:1px solid black; width:900px;}
+#header {background: BlanchedAlmond; color:Navy; padding: 10px; margin:0 auto; border:1px solid black;}
+#menu{background:BurlyWood ; color: black; padding: 10px; margin: 0 auto; border-left:1px solid black; border-right: 1px solid black;}
+#main {background: BlanchedAlmond ; padding: 10px; margin: 0 auto; border-left:1px solid black; border-right: 1px solid black;}
+#footer {background: DarkKhaki; color: White; padding: 10px; margin: 0 auto; border:1px solid black;}
 
 .hdr_img {float:right; margin:0; padding:0; border:0;}
 
@@ -11,8 +11,7 @@
 
 /* Css to Format a gridview----Start*/
 .cssgridview { width:100%; margin:5px 0 10px 0; border:solid 1px #525252;
-border-collapse:collapse; text-align:center; font-family: "Comic Sans MS"; color:
-#7C6F57; background-color: #F7F6F3}
+border-collapse:collapse; text-align:center; font-family:Adobe Caslon Pro; color:Teal; background-color: #F7F6F3}
 .cssgridview td { padding:10px; border:solid 1px #c1c1c1; color:#717171; }
 .cssgridview td a, a:visited { color:#717171; text-decoration:none; }
 .cssgridview th { padding:10px; color:#fff; background:#424242
@@ -32,7 +31,7 @@ font-weight: bold; color: #fff; line-height: 12px; }
 /* CSS to format a gridview -- END*/
 
 /* CSS to format a detailsview --START */
-.cssdetailsview { font-family: "Comic Sans MS"; background-color:#fff; margin:5px 0
+.cssdetailsview { font-family:"Adobe Caslon Pro"; background-color:#fff; margin:5px 0
 10px 0; border:solid 1px #525252; border-collapse:collapse; text-align:center; }
 .cssdetailsview td { padding:10px; border:solid 1px #c1c1c1; color:#717171;
 text-align:left;}
@@ -56,8 +55,8 @@ line-height: 20px;}
 
 .level1
 {
-    color:White;
-    background-color: Fuchsia;
+    color:white;
+    
     font-variant:normal;
     font-size:medium;
     font-weight:bold; 
@@ -65,17 +64,19 @@ line-height: 20px;}
 
 Level2
 {
-    color:blue;
+    color:white;
     font-family: Adobe Caslon Pro;
     font-size: small; 
 }
 
 Level3
 {
-    color: Lime; 
-    background-color: white;
+    color: white; 
+    background-color:Silver;
     font-family: Adobe Caslon Pro;
     font-size: smaller   
 }
 
-    
+/* CSS to format FUNCTIONALITIES --START */
+
+.deletedplayerhighlight{color: orange; font-style: italic; font-weight:bold; text-decoration:underline;}

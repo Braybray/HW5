@@ -48,8 +48,9 @@ Here you can edit and delete player record!<br />
         AllowSorting="True" AutoGenerateColumns="False" DataKeyNames="PlayerName" 
         DataSourceID="SqlDataSource1" width="772px" PageSize="6" GridLines="None"
         CssClass="cssgridview" AlternatingRowStyle-CssClass="alt" PagerStyle-CssClass="pgr">
+<AlternatingRowStyle CssClass="alt"></AlternatingRowStyle>
         <Columns>
-            <asp:CommandField ShowDeleteButton="True" ShowEditButton="True" />
+            <asp:CommandField ShowEditButton="True" />
             <asp:BoundField DataField="PlayerName" HeaderText="PlayerName" 
                 ReadOnly="True" SortExpression="PlayerName" />
             <asp:BoundField DataField="PlayerPosition" HeaderText="PlayerPosition" 
@@ -75,12 +76,16 @@ Here you can edit and delete player record!<br />
             <asp:BoundField DataField="Passing" HeaderText="Passing" 
                 SortExpression="Passing" />
         </Columns>
+
+<PagerStyle CssClass="pgr"></PagerStyle>
     </asp:GridView>
     <br />
     <br />
     <br />
-&nbsp;
 
+
+    <a href="default.aspx">Admin Homepage</a>
+    <br />
 
 
 

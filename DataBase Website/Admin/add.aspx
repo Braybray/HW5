@@ -82,5 +82,7 @@ Here you can add Player record to the page!
     <br />
     <br />
     <br />
+
+     <a href="default.aspx">Admin Homepage</a>
 </asp:Content>
 
